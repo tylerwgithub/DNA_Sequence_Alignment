@@ -53,6 +53,7 @@ public class generator {
 		else if (n <= a+c+g) return "G";
 		else return "T";
 	}
+
 	public static String getRandom(int a,  int c, int g, int t, int s) {
 		Random random = new Random();
         int n = random.nextInt(s) + 1;

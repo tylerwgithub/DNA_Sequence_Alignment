@@ -3,6 +3,7 @@ import java.util.*;
 public class partitioning{
 	public static String[] dnaPartitioning(String input, int x, int y, String output) throws IOException {
 		String[] seq = fileHandler.readFile(input);
+// 		System.out.println(seq);
 		Random random = new Random();
 //		int n = random.nextInt(y - x + 1) + x;
 		List<String> list = new ArrayList<>();
